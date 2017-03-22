@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E3A225A81E82C53C00E441B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A225A71E82C53C00E441B9 /* AppDelegate.swift */; };
-		E3A225AA1E82C53C00E441B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A225A91E82C53C00E441B9 /* ViewController.swift */; };
 		E3A225AD1E82C53C00E441B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A225AB1E82C53C00E441B9 /* Main.storyboard */; };
 		E3A225AF1E82C53C00E441B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A225AE1E82C53C00E441B9 /* Assets.xcassets */; };
 		E3A225B21E82C53C00E441B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A225B01E82C53C00E441B9 /* LaunchScreen.storyboard */; };
+		E3A225BA1E82C55400E441B9 /* ListOfWebsites.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A225B91E82C55400E441B9 /* ListOfWebsites.swift */; };
+		E3A225BC1E82C5FF00E441B9 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A225BB1E82C5FF00E441B9 /* WebViewVC.swift */; };
+		E3A225BE1E82C6F000E441B9 /* WebsiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A225BD1E82C6F000E441B9 /* WebsiteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3A225A41E82C53C00E441B9 /* SWB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A225A71E82C53C00E441B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3A225A91E82C53C00E441B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3A225AC1E82C53C00E441B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3A225AE1E82C53C00E441B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A225B11E82C53C00E441B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3A225B31E82C53C00E441B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A225B91E82C55400E441B9 /* ListOfWebsites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfWebsites.swift; sourceTree = "<group>"; };
+		E3A225BB1E82C5FF00E441B9 /* WebViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
+		E3A225BD1E82C6F000E441B9 /* WebsiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				E3A225A71E82C53C00E441B9 /* AppDelegate.swift */,
-				E3A225A91E82C53C00E441B9 /* ViewController.swift */,
 				E3A225AB1E82C53C00E441B9 /* Main.storyboard */,
 				E3A225AE1E82C53C00E441B9 /* Assets.xcassets */,
 				E3A225B01E82C53C00E441B9 /* LaunchScreen.storyboard */,
 				E3A225B31E82C53C00E441B9 /* Info.plist */,
+				E3A225B91E82C55400E441B9 /* ListOfWebsites.swift */,
+				E3A225BB1E82C5FF00E441B9 /* WebViewVC.swift */,
+				E3A225BD1E82C6F000E441B9 /* WebsiteManager.swift */,
 			);
 			path = SWB;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A225AA1E82C53C00E441B9 /* ViewController.swift in Sources */,
+				E3A225BA1E82C55400E441B9 /* ListOfWebsites.swift in Sources */,
+				E3A225BE1E82C6F000E441B9 /* WebsiteManager.swift in Sources */,
 				E3A225A81E82C53C00E441B9 /* AppDelegate.swift in Sources */,
+				E3A225BC1E82C5FF00E441B9 /* WebViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
